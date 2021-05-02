@@ -1,0 +1,3 @@
+1. To Test the images using best model : 
+   python inference.py --config config.json --model .\saved\PSPNet\03-09_18-22\best_model.pth --images .\dataset\uav_imgs\test\org_img\ --extension png
+   python inference.py --config config.json --model ./saved/DeepLab/DeepLabv3+_Michael-generated-masks-1976/all-cls/713x713/Iter-100/exp-1_lr-1e-2/08-07_11-52/best_model.pth --images ./dataset/Michael-generated-masks-1976/test/test-org-img/ --extension jpg
